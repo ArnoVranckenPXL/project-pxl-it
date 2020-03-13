@@ -27,3 +27,10 @@ Surf naar deze url en sla hem op in je favorieten.
 De volgende stap is om een **lokale** kopie (clone) te maken van de repository van je team.
 
 ## Clone je team repository
+
+In deze handleiding tonen we hoe je Visual Studio kan gebruiken om met git te werken. Je bent echter vrij om je eigen favoriete git tool te gebruiken (command line, GitKraken, ...).
+
+* Start Visual Studio en selecteer "Clone or check out code".
+* Surf met een browser naar de repository van je team en klik op de _Clone or download_ knop bovenaan rechts.
+* Kopieer de url van je repository
+
