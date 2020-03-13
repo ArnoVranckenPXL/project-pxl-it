@@ -1,0 +1,1 @@
+[Terug naar de wiki startpagina](https://github.com/pxlit-projects/battleship/wiki)
