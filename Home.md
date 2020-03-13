@@ -1,1 +1,3 @@
-Welcome to the battleship wiki!
+# Opgave
+Wat je moet bouwen, kan je lezen in de [opgave](Opgave).
+
