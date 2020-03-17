@@ -1,12 +1,12 @@
 ## Algemeen
 
 De backend is een webapplicatie waarmee je via het HTTP(S) protocol kan communiceren. Als je de applicatie start dan kan je HTTP requesten sturen naar https://localhost:5001.
-De backend maakt gebruik van het .NET Core MVC framework. Dit framework zal pas later in de opleiding aan bod komen. Daarom hebben we alles wat met het MVC framework te maken heeft, reeds geïmplementeerd.
+De backend maakt gebruik van het .NET Core MVC framework. Dit framework zal pas later in de opleiding aan bod komen. Daarom hebben we alles wat met het MVC framework te maken heeft, reeds geÃ¯mplementeerd.
 Er zitten echter wel (heel wat) gaten in de code. Deze gaten zal je met je kennis uit .NET Essentials moeten opvullen.
 
 ## Installatie
 
-Om een .NET Core webapplicatie te kunnen bouwen moeten de nodige componenten in Visual Studio geïnstalleerd worden.
+Om een .NET Core webapplicatie te kunnen bouwen moeten de nodige componenten in Visual Studio geÃ¯nstalleerd worden.
 
 * Klik op de windows knop en zoek naar Visual Studio Installer. Start het programma.
 
@@ -59,7 +59,7 @@ Gebruik (naast de documentatie) deze testen om te achterhalen hoe je deze classe
 Als je de applicatie start, dan word je automatisch geleid naar https://localhost:5001/swagger/index.html. 
 
 Hier vind je een uitleg over de verschillende http requesten die je kan sturen naar endpoints van de backend. 
-_(Lees eerst even de documentatie over [client-server architectuur](Client-Server-architectuur.md) als je nog niet weet wat er met endpoints bedoeld wordt.)_
+_(Lees eerst even de documentatie over [client-server architectuur](Client-Server-architectuur) als je nog niet weet wat er met endpoints bedoeld wordt.)_
 Je kan hier voor elke request zien welke parameters (json) er verwacht worden en welke responses je mag verwachten.
 
 Wat misschien minder duidelijk is, is welke code er uitgevoerd wordt als er een http request aankomt op een eindpoint van de applicatie.
@@ -101,7 +101,7 @@ De class coordineert de logica rond:
 * het positioneren van schepen
 * het schieten naar de tegenstander
 
-De _GameService_ class coördineert. Dat wil zeggen dat hij veel verantwoordelijkheid doorschuift naar andere classes (in het Battleship.Data project en Battleship.Domain project).
+De _GameService_ class coÃ¶rdineert. Dat wil zeggen dat hij veel verantwoordelijkheid doorschuift naar andere classes (in het Battleship.Data project en Battleship.Domain project).
 De _GameService_ doet alles met 3 instanties van objecten die worden doorgegeven via de constructor:
 * een instantie van een class die _IGameFactory_ implementeert. 
 Hiermee kan een _Game_ kan aangemaakt worden. 
@@ -164,14 +164,14 @@ In het domain project zijn veel classes aanwezig. Waar moet je nu beginnen?
 * Werk **feature per feature**. Laat ons hier het voorbeeld "Een nieuw spel starten" nemen. 
      * **Traceer de flow van de code** vanuit het API project. Plaats een breakpoint in de juiste controller methode en gebruik **debugging** technieken om dieper en dieper in de code te stappen. Voor het starten van een nieuw spel plaats je een breakpoint in de _CreateNewSinglePlayerGame_ methode.
      * Vervolledig de methodes / properties die je tegen komt tijdens het debuggen. **Laat je leiden door de automatische testen**. **Methodes en properties die je niet nodig hebt voor de huidige feature laat je voorlopig links liggen**. Bij het aanmaken van een nieuw spel zal je de _CreateGameForUser_ methode van de _GameService_ moeten implementeren. Vervolgens zal je merken dat je de _CreateNewSinglePlayerGame_ methode van _GameFactory_ zal moeten implementeren en de _CreateFromGame_ methode van de _GameInfoFactory_ class, enzovoort.
-     * Als de automatische testen aangeven dat een bepaalde methode / property van een andere class nog niet geïmplementeerd is dat implementeer je die eerst.
+     * Als de automatische testen aangeven dat een bepaalde methode / property van een andere class nog niet geÃ¯mplementeerd is dat implementeer je die eerst.
 * **Zorg dat je de gegeven code ook begrijpt**. Neem de tijd om de achterliggende theorie te bestuderen. Als je weet wat je aan het doen bent dan zal je code veel beter zijn en zal het ook aangenamer zijn om te programmeren. 
      * Als er in een class paramter van een interface type wordt doorgegeven, dan ga je ook de class die de interface implementeert moeten aanvullen om de feature aan het werken te krijgen. Tip: als je rechts klikt op een interface type en je selecteert _Go to implementation_ dan kom je uit op de class die de interface implementeert.
 
 
 #### GridCoordinateArrayExtensions
 
-Om het plaatsen van schepen te vereenvoudigen maak je gebruik van _extensies_ op een array van grid coördinaten (_GridCoordinate[]_).
+Om het plaatsen van schepen te vereenvoudigen maak je gebruik van _extensies_ op een array van grid coÃ¶rdinaten (_GridCoordinate[]_).
 Deze extensies moet je zelf nog invullen in de _GridCoordinateArrayExtensions_ class. 
 Om goed te weten wat je in deze class moet doen en hoe je de methoden in deze class kan gebruiken, ga je eens moeten onderzoeken wat **_extension methods_** in C# zijn. 
 Op https://www.tutorialsteacher.com/csharp/csharp-extension-method vind je een vrij heldere uitleg, maar niets houd je tegen om ook andere bronnen te raadplegen.
