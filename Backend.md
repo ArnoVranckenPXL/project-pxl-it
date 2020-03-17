@@ -146,7 +146,7 @@ Daarom zijn ze ingedeeld in 4 subdomeinen:
 * _GameDomain_: classes die een zeeslag spel helpen modeleren (_Game, GameFactory, GameMode, GameSettings_)
 * _PlayerDomain_: classes die een speler modeleren (_HumanPlayer, ComputerPlayer, RandomShootingStrategy_)
 * _GridDomain_: classes die een 10x10 grid modeleren (_Grid, GridCoordinate, GridSquare, GridSquareStatus_)
-* _FleedDomain_: classes die de vloot van schepen van een speler modeleren (_Fleet, Ship, ShipKind_)
+* _FleetDomain_: classes die de vloot van schepen van een speler modeleren (_Fleet, Ship, ShipKind_)
 
 Er zijn ook enkele _hulp_ classes die niet tot een specifiek domein horen:
 * User: een (menselijke) geregistreerde gebruiker. Je hoeft niets te wijzigen in deze code.
@@ -164,9 +164,9 @@ In het domain project zijn veel classes aanwezig. Waar moet je nu beginnen?
 * Werk **feature per feature**. Laat ons hier het voorbeeld "Een nieuw spel starten" nemen. 
      * **Traceer de flow van de code** vanuit het API project. Plaats een breakpoint in de juiste controller methode en gebruik **debugging** technieken om dieper en dieper in de code te stappen. Voor het starten van een nieuw spel plaats je een breakpoint in de _CreateNewSinglePlayerGame_ methode.
      * Vervolledig de methodes / properties die je tegen komt tijdens het debuggen. **Laat je leiden door de automatische testen**. **Methodes en properties die je niet nodig hebt voor de huidige feature laat je voorlopig links liggen**. Bij het aanmaken van een nieuw spel zal je de _CreateGameForUser_ methode van de _GameService_ moeten implementeren. Vervolgens zal je merken dat je de _CreateNewSinglePlayerGame_ methode van _GameFactory_ zal moeten implementeren en de _CreateFromGame_ methode van de _GameInfoFactory_ class, enzovoort.
-     * Als de automatische testen aangeven dat een bepaalde methode / property van een andere class nog niet geïmplementeerd is dat implementeer je die eerst.
+     * Als de automatische testen aangeven dat een bepaalde methode / property van een andere class nog niet geïmplementeerd is dan implementeer je die eerst.
 * **Zorg dat je de gegeven code ook begrijpt**. Neem de tijd om de achterliggende theorie te bestuderen. Als je weet wat je aan het doen bent dan zal je code veel beter zijn en zal het ook aangenamer zijn om te programmeren. 
-     * Als er in een class paramter van een interface type wordt doorgegeven, dan ga je ook de class die de interface implementeert moeten aanvullen om de feature aan het werken te krijgen. Tip: als je rechts klikt op een interface type en je selecteert _Go to implementation_ dan kom je uit op de class die de interface implementeert.
+     * Als er in een class parameter van een interface type wordt doorgegeven in een constructor, dan ga je ook de class die de interface implementeert moeten aanvullen om de feature aan het werken te krijgen. Tip: als je rechts klikt op een interface type en je selecteert _Go to implementation_ dan kom je uit op de class die de interface implementeert.
 
 
 #### GridCoordinateArrayExtensions
@@ -176,5 +176,11 @@ Deze extensies moet je zelf nog invullen in de _GridCoordinateArrayExtensions_ c
 Om goed te weten wat je in deze class moet doen en hoe je de methoden in deze class kan gebruiken, ga je eens moeten onderzoeken wat **_extension methods_** in C# zijn. 
 Op https://www.tutorialsteacher.com/csharp/csharp-extension-method vind je een vrij heldere uitleg, maar niets houd je tegen om ook andere bronnen te raadplegen.
 
+#### Shooting strategies
 
+Als een computerspeler aan zet is, dan moet hij bepalen op welk vak van de tegenstander hij gaat schieten.
+Dit doe je door een class te maken die de interface _IShootingStrategy_ implementeert. 
+Voor de minimale vereisten is dat de class _RandomShootingStrategy_. Wil je een slimmere computerspeler bouwen (als extra) dan implementeer je de class _SmaartShootingStrategy_.
+
+In de _GameFactory_ class kan je bepalen welke shooting strategy je meegeeft aan een computerspeler.
 
