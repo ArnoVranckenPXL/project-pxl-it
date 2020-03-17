@@ -12,7 +12,7 @@ Om een .NET Core webapplicatie te kunnen bouwen moeten de nodige componenten in 
 
 ![Run Visual Studio Installer](images/vs_installer.png)
 
-* Als er een update beschikbaar is, update Visual Studio naar de laaste versie. (Op het moment van schrijven is dit versie 15.9.10). Let op: dit kan gemakkelijk een half uur duren!
+* Als er een update beschikbaar is, update Visual Studio naar de laaste versie. (Op het moment van schrijven is dit versie 16.5.0). Let op: dit kan gemakkelijk een half uur duren!
 * Klik op de _Modify_ knop
 * Zorg dat de minstens de volgende Workloads aangevinkt zijn:
      * .NET desktop development
