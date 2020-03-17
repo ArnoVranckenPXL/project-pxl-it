@@ -1,6 +1,7 @@
 # Client-Server architectuur
 
 
+
 # REST endpoints
 
 
@@ -9,7 +10,7 @@
 Als je aan de receptie van een hotel aankomt dan moet je eerst je identiteit bewijzen (dmv je identiteitskaart) en vervolgens krijg je een key card die je toegang geeft tot je hotelkamer.
 
 
-
+![keycard-slot](https://github.com/pxlit-projects/battleship/blob/master/wiki-images/architectuur/keycard-slot.jpg)
 
 Hetzelfde principe wordt gehanteerd voor het beveiliging van de backend. Wanneer een gebruiker van de frontend toegang wil krijgen tot de backend moet hij eerst zijn identiteit bewijzen en vervolgens krijgt hij van de backend een token waarmee hem verdere toegang tot de backend wordt verleend. Dit token noemen we een bearer token. De drager (bearer) van het token krijgt toegang tot de backend.
 
