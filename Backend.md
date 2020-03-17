@@ -19,16 +19,16 @@ Om een .NET Core webapplicatie te kunnen bouwen moeten de nodige componenten in 
      * ASP.NET and web development
      * Data storage and processing
 
-TODO: image
+![Choose workloads](images/vs_components.png)
 
 * Klik rechts onder op de knop om de wijzigingen door te voeren.
 * Surf naar https://dotnet.microsoft.com/download en installeer de .NET Core 3.1 **SDK**. Let op: kies voor de **SDK** niet de _Runtime_.
 
-TODO: image
+![Download .NET Core 3.1](images/download_dotnet.png)
 
 ## Projectstructuur
 
-TODO: image
+![Projectstructuur](images/projects.png)
 
 In de solution vind je 9 projecten:
 
@@ -60,7 +60,9 @@ Als je de applicatie start, dan word je automatisch geleid naar https://localhos
 
 Hier vind je een uitleg over de verschillende http requesten die je kan sturen naar endpoints van de backend. 
 _(Lees eerst even de documentatie over [client-server architectuur](Client-Server-architectuur) als je nog niet weet wat er met endpoints bedoeld wordt.)_
-Je kan hier voor elke request zien welke parameters (json) er verwacht worden en welke responses je mag verwachten.
+Je kan hier voor elke request zien welke parameters (json) er verwacht worden en welke responses je mag verwachten. Je kan zelfs de API aanspreken via deze user interface.
+
+![Swagger UI](images/swagger_ui.png)
 
 Wat misschien minder duidelijk is, is welke code er uitgevoerd wordt als er een http request aankomt op een eindpoint van de applicatie.
 Hieronder vind je een overzicht van de methodes die worden uitgevoerd:
