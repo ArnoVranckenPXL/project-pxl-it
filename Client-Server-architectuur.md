@@ -2,7 +2,7 @@
 
 Wanneer je een Twitter(of Instagram)-bericht de wereld instuurt, dan zal de app (op je telefoon of laptop) dit bericht versturen naar de Twitter server. Jouw volgers vragen de twitter server om de nieuwe berichten te tonen.
 
-![twitterserver](/Users/nelec/PXL/courses/1TINProject/batlleship_wiki/images/architectuur/twitterserver.png)
+![twitterserver](images/architectuur/twitterserver.png)
 
 
 
@@ -23,25 +23,25 @@ Aan de andere kant hebben we de **frontend** (of client side). Dit is wat de geb
 
 Als je aan de receptie van een hotel aankomt dan moet je eerst je identiteit bewijzen (dmv je identiteitskaart) en vervolgens krijg je een key card die je toegang geeft tot je hotelkamer.
 
-<img src="/Users/nelec/PXL/courses/1TINProject/batlleship_wiki/images/architectuur/keycard-slot.jpg" alt="keycard-slot" style="zoom:75%;" />
+<img src="images/architectuur/keycard-slot.jpg" alt="keycard-slot" style="zoom:75%;" />
 
 Hetzelfde principe wordt gehanteerd voor het beveiliging van de backend. Wanneer een gebruiker van de frontend toegang wil krijgen tot de backend moet hij eerst zijn identiteit bewijzen en vervolgens krijgt hij van de backend een token waarmee hem verdere toegang tot de backend wordt verleend. Dit token noemen we een bearer token. De drager (bearer) van het token krijgt toegang tot de backend.
 
 Een speler zal zich dus eerst moeten registeren. Dit kan natuurlijk zonder beveiliging gebeuren. Om een speler te registeren is het REST endpoint /api/Authentication/register voorzien.
 
-![register_call](/Users/nelec/PXL/courses/1TINProject/batlleship_wiki/images/architectuur/register_call.JPG)
+![register_call](images/architectuur/register_call.JPG)
 
 Eens een speler geregisteerd is kan hij inloggen en een token aanvragen. Hiervoor is het REST endpoint /api/Authentication/token.
 
-![login_call](/Users/nelec/PXL/courses/1TINProject/batlleship_wiki/images/architectuur/login_call.JPG)
+![login_call](images/architectuur/login_call.JPG)
 
 Het response (in json formaat) dat je terugkrijgt van de server bevat de id en nickName van de speler en het (bearer) token. 
 
-![login_response](/Users/nelec/PXL/courses/1TINProject/batlleship_wiki/images/architectuur/login_response.JPG)
+![login_response](images/architectuur/login_response.JPG)
 
 Wanneer je eenmaal een bearer token hebt bekomen, kan je de andere REST endpoints gebruiken om bijv. een spel te starten, een schip te plaatsen,… Je moet je bearer token dan meegeven in de Authorization request header. Hieronder zie je het request om een spel te starten. 
 
-![create_game_call](/Users/nelec/PXL/courses/1TINProject/batlleship_wiki/images/architectuur/create_game_call.JPG)
+![create_game_call](images/architectuur/create_game_call.JPG)
 
 
 Als je gebruikmaakt van fetch om in javascript de REST endpoints aan te spreken kan je het bearer token opslaan in sessionStorage. Hieronder zie je de aanmaak van een fetch-commando met Bearer token. 
