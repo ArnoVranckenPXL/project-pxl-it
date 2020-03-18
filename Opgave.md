@@ -38,6 +38,8 @@ Na afloop van het spel wordt de speler terug gebracht naar het hoofdscherm met d
 
 We geven een overzicht van de minimale vereisten voor dit project. Deze moeten geïmplementeerd zijn om een voldoende te halen op het project.
 
+_*TODO*_
+
 ## Extra's
 
 Wanneer de minimale vereisten van hierboven voldaan zijn, kunnen er extra's naar keuze toegevoegd worden. Hiermee kan je je als team onderscheiden van de rest en extra punten scoren.
