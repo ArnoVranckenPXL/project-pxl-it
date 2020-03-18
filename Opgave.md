@@ -1,1 +1,78 @@
-TODO: opgave
+# Zeeslag
+In dit project maken jullie een versie van het bekende bordspel **Zeeslag**. In dit spel is het de bedoeling om alle schepen van je tegenstander tot zinken te brengen, voordat je tegenstander dat bij jou doet.
+
+De regels van het spel kan je o.a. op [Wikipedia](https://nl.wikipedia.org/wiki/Zeeslag_(spel)) vinden.
+
+In eerste instantie maken jullie in team een versie waarbij je tegen een computerspeler kan spelen.
+Als eventuele extra kunnen jullie er in een latere fase voor zorgen dat het spel ook tegen een andere menselijke speler gespeeld kan worden.
+
+Om dit geheel te realiseren, moeten er twee grote componenten ontwikkeld worden: de **frontend** en de **backend**
+
+## Backend
+
+De backend moet ervoor zorgen dat alle nodige data beschikbaar is voor de frontend. Enkele zaken waarvoor de backend zorgt: gebruikers registreren, gebruikers bijhouden in de database, checken van login gegevens, actieve spelletjes bijhouden, het communiceren van acties tijdens deze spelletjes, ...
+
+Jullie moeten dit component in .NET ontwikkelen. We hebben al een groot stuk van de backend voor jullie voorzien, waarbij jullie het vervolg zelf moeten uitwerken. In deze git repository (zie 'Source') vinden jullie een skelet waarin jullie enkel de _**data- en servicelaag**_ moeten toevoegen. In deze Wiki geven wat uitleg over de werking die we verwachten van de backend. Je vindt alle guides op de Home pagina.
+
+De backend zal in eerste instantie lokaal gehost worden. Als extra kunnen jullie er eventueel voor zorgen dat de applicatie ook online gespeeld kan worden.
+
+## Frontend
+
+De frontend zal gemaakt worden met webtechnologie. (HTML, CSS, JavaScript) Jullie hebben hiervoor de nodige kennis opgedaan in de vakken **Web Essentials** en **Web Scripting**.
+Jullie bepalen als team zelf hoe de applicatie er precies uit zal zien. Houd hierbij rekening dat de applicatie intuïtief en gebruiksvriendelijk moet zijn voor de spelers. Ga bijvoorbeeld eens kijken bij andere online versies van het spel om wat inspiratie op te doen. Overleg met je team welke elementen er in de layout moeten zitten en waar die best geplaatst worden.
+
+Pas zo goed mogelijk de aangeleerde methoden uit de twee bovenstaande vakken toe om een robuuste applicatie te bouwen. De code moet leesbaar en makkelijk uitbreidbaar zijn, zodat je teamgenoten er steeds aan kunnen verder werken.
+
+## Het spel
+
+Een speler kan een account maken en hiermee inloggen. Eens ingelogd, kan de speler een spel starten wanneer hij daar klaar voor is. Voorzie dus een scherm waarop de speler terecht komt na inloggen. Vanop deze pagina kan het spel gestart worden, al dan niet met een aantal opties i.v.m. de regels die toegepast zullen worden tijdens het spel.
+
+Bij de start van een spel moet de speler eerst al zijn schepen plaatsen. Hierbij moeten bepaalde regels gerespecteerd worden, afhankelijk van welke regels en opties er gekozen zijn. Het is de backend die deze checks zal moeten uitvoeren.
+Slechts wanneer alle schepen op een correcte manier geplaatst zijn, kan het spel effectief van start gaan. In het spel komen de speler en de computerspeler (backend) om de beurt aan zet en schieten ze een torpedo af op een bepaald vakje in de grid.
+
+Wanneer alle vakjes waarin een boot staat, geraakt zijn, zinkt de betreffende boot. Het spel duurt tot een speler alle schepen van de andere speler heeft kunnen laten zinken.
+
+Na afloop van het spel wordt de speler terug gebracht naar het hoofdscherm met de mogelijkheid om een nieuw spel te starten.
+
+## Minimale vereisten
+
+We geven een overzicht van de minimale vereisten voor dit project. Deze moeten geïmplementeerd zijn om een voldoende te halen op het project.
+
+## Extra's
+
+Wanneer de minimale vereisten van hierboven voldaan zijn, kunnen er extra's naar keuze toegevoegd worden. Hiermee kan je je als team onderscheiden van de rest en extra punten scoren.
+
+**Begin pas aan de extra's als alle minimale vereisten klaar zijn.**
+
+We geven enkele ideeën, maar jullie zijn zeker vrij om - in samenspraak met de docenten - een eigen idee als extra te implementeren.
+
+* Ondersteuning voor multiplayer
+* Implementatie van verschillende alternatieve opties voor spelregels
+* _*TODO aanvullen*_
+
+## Projectverloop
+
+Aangezien jullie in team gaan werken, zullen jullie een git repository gebruiken om de laatste versie van jullie project voor iedereen beschikbaar te maken. Jullie hebben in het vak Web Essentials enkele opdrachten in git moeten uitvoeren, dus hebben jullie de nodige kennis hiervoor.
+
+Voorzie ook een communicatietool waarmee jullie makkelijk met elkaar kunnen communiceren wanneer jullie niet samen zitten. De keuze is vrij, tools als Slack, Discord, Microsoft Teams, ... zijn allemaal prima opties hiervoor.
+
+Om jullie een duidelijk overzicht te geven van de verschillende componenten die geïmplementeerd moeten worden, hebben we al een lijst met _*issues (?)*_ voorzien. Neem zeker eens een kijkje, het hele project wordt opgedeeld in een aantal subtaken, om het geheel **overzichtelijk** en **opdeelbaar** te maken.
+
+We raden zeker aan om af en toe aan pair programming te doen, waarbij één student code schrijft en de andere mee volgt om zo mee te denken en onmiddellijk fouten op te sporen. Dit is een vaak gebruikte techniek die zeker nuttig kan zijn.
+
+## Opvolging
+
+_*TODO deadlines/feedbackmomenten*_
+
+## Verplichte aanwezigheid
+
+Iedereen is **verplicht aanwezig** op alle begeleide projectsessies, voor de **volledige duur** van de sessie!
+
+Bij gewettigde afwezigheid, moet je dit zo snel mogelijk melden aan je teamleden en de docent.
+Wanneer je te vaak afwezig bent (zelfs gewettigd), kan je niet slagen voor het project.
+
+Precieze info kan je vinden in de [studiegids](https://ibamaflexweb.pxl.be/BMFUIDetailxOLOD.aspx?b=1&c=1&a=62374).
+
+## Evaluatie
+
+Voor de evaluatie van dit project zullen we een groepscijfer van 65% bepalen, aan de hand van de presentatie die jullie geven na afloop van het project. We zullen ook automatische testen voorzien en het resultaat hiervan wordt eveneens meegenomen in dit cijfer. De overige 35% wordt bepaald d.m.v. peer assessment. Dit is dus een cijfer dat bepaald zal worden door je groepsleden. Zij kunnen het best inschatten wat het aandeel van elk ander teamlid was, dus wordt dat ook in rekening genomen. Meer informatie over het precieze verloop van presentatie, tests en peer assessment verschijnt nog op Blackboard, nadat het project van start gegaan is.
