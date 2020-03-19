@@ -12,7 +12,8 @@ Om dit geheel te realiseren, moeten er twee grote componenten ontwikkeld worden:
 
 De backend moet ervoor zorgen dat alle nodige data beschikbaar is voor de frontend. Enkele zaken waarvoor de backend zorgt: gebruikers registreren, gebruikers bijhouden in de database, checken van login gegevens, actieve spelletjes bijhouden, het communiceren van acties tijdens deze spelletjes, ...
 
-Jullie moeten dit component in .NET ontwikkelen. We hebben al een groot stuk van de backend voor jullie voorzien, waarbij jullie het vervolg zelf moeten uitwerken. In deze git repository (zie 'Source') vinden jullie een skelet waarin jullie enkel de _**data- en servicelaag**_ moeten toevoegen. In deze Wiki geven wat uitleg over de werking die we verwachten van de backend. Je vindt alle guides op de Home pagina.
+Jullie moeten deze component in .NET ontwikkelen. We hebben al een groot stuk van de backend voor jullie voorzien, waarbij jullie het vervolg zelf moeten uitwerken. In deze git repository (zie 'Source') vinden jullie een skelet waarin jullie _**enkele gaten**_ moeten opvullen. 
+In deze Wiki geven wat [uitleg over de werking die we verwachten van de backend](Backend). Je vindt alle guides op de [Home pagina](Home).
 
 De backend zal in eerste instantie lokaal gehost worden. Als extra kunnen jullie er eventueel voor zorgen dat de applicatie ook online gespeeld kan worden.
 
