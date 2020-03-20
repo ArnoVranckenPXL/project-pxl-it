@@ -37,7 +37,7 @@ Na afloop van het spel wordt de speler terug gebracht naar het hoofdscherm met d
 
 ## <a name="minimalevereisten"></a>Minimale vereisten
 
-We geven een overzicht van de minimale vereisten voor dit project. Als deze minimale vereisten aanwezig zijn bij de eindpresentatie (zie verder) leveren ze 14 punten op. 3 punten hiervan zijn al te verdienen tijdens de [tussentijdse deadlines](#opvolging).
+We geven een overzicht van de minimale vereisten voor dit project. Als deze minimale vereisten aanwezig zijn bij de [eindpresentatie](#eindpresentatie) leveren ze 14 punten op. 3 punten hiervan zijn al te verdienen tijdens de [tussentijdse deadlines](#opvolging).
 
 * Registratie van nieuwe gebruiker
 * Inloggen met bestaande gebruiker
