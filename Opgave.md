@@ -42,11 +42,12 @@ We geven een overzicht van de minimale vereisten voor dit project. Deze moeten g
 * Registratie van nieuwe gebruiker
 * Inloggen met bestaande gebruiker
 * Starten van nieuw spel
-* Plaatsen van schepen
+* Plaatsen van schepen voor menselijke speler
+* Automatisch schepen plaatsen voor computer speler
 * Start spel na plaatsen van alle schepen
-* Schoten lossen en resultaat tonen
-* Einde van het spel
-
+* Schoten lossen en resultaat tonen voor menselijke speler
+* Automatisch schoten lossen voor computer spelen ('domme' strategie)
+* Einde van het spel: winnaar tonen
 
 ## Extra's
 
@@ -56,9 +57,15 @@ Wanneer de minimale vereisten van hierboven voldaan zijn, kunnen er extra's naar
 
 We geven enkele ideeën, maar jullie zijn zeker vrij om - in samenspraak met de docenten - een eigen idee als extra te implementeren.
 
-* Ondersteuning voor multiplayer
 * Implementatie van verschillende alternatieve opties voor spelregels
-* _*TODO aanvullen*_
+* Slimme computer strategie (na een hit, het schip snel zinken): 3 punten
+* Speloptie: Meerdere schoten per beurt (3 varianten): 3 punten
+* Speloptie: Niet moeten melden van een gezonken schip: 1 punt
+* Speloptie: Verplaatsten van schepen tijdens een spel: 3 punten
+* Speloptie: Vervormde schepen toestaan: 3 punten
+* Multiplayer (2 mensen tegen elkaar): 4 punten
+* Multiplayer (met een groep tegen een AI): 6 punten
+* Eigen ideeën: te bespreken met lectoren
 
 ## Projectverloop
 
