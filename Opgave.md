@@ -35,9 +35,9 @@ Wanneer alle vakjes waarin een boot staat, geraakt zijn, zinkt de betreffende bo
 
 Na afloop van het spel wordt de speler terug gebracht naar het hoofdscherm met de mogelijkheid om een nieuw spel te starten.
 
-## Minimale vereisten
+## <a name="minimalevereisten"></a>Minimale vereisten
 
-We geven een overzicht van de minimale vereisten voor dit project. Deze moeten geïmplementeerd zijn om een voldoende te halen op het project.
+We geven een overzicht van de minimale vereisten voor dit project. Als deze minimale vereisten aanwezig zijn bij de eindpresentatie (zie verder) leveren ze 14 punten op. 3 punten hiervan zijn al te verdienen tijdens de [tussentijdse deadlines](#opvolging).
 
 * Registratie van nieuwe gebruiker
 * Inloggen met bestaande gebruiker
@@ -49,7 +49,7 @@ We geven een overzicht van de minimale vereisten voor dit project. Deze moeten g
 * Automatisch schoten lossen voor computer spelen ('domme' strategie)
 * Einde van het spel: winnaar tonen
 
-## Extra's
+## <a name="extras"></a>Extra's
 
 Wanneer de minimale vereisten van hierboven voldaan zijn, kunnen er extra's naar keuze toegevoegd worden. Hiermee kan je je als team onderscheiden van de rest en extra punten scoren.
 
@@ -87,7 +87,7 @@ Wanneer je te vaak afwezig bent (zelfs gewettigd), kan je niet slagen voor het p
 
 Precieze info kan je vinden in de [studiegids](https://ibamaflexweb.pxl.be/BMFUIDetailxOLOD.aspx?b=1&c=1&a=62374).
 
-## Opvolging
+## <a name="opvolging"></a>Opvolging
 
 Er zullen enkele tussentijdse deadlines plaatsvinden, om jullie vooruitgang beter in te kunnen schatten. 
 Jullie kunnen hier telkens al een punt mee verdienen die in het eindresultaat meegeteld zal worden.
@@ -100,7 +100,7 @@ Jullie kunnen hier telkens al een punt mee verdienen die in het eindresultaat me
 
 **Finale versie - Week 7:** Eindpresentatie. Resultaat afgewerkte applicatie/game.
 
-## Eindpresentatie
+## <a name="eindpresentatie"></a>Eindpresentatie
 
 Na afloop van het project wordt er een eindpresentatie gegeven door het hele team. Hierin wordt een demo gegeven van de geïmplementeerde applicatie. Er worden ook enkele inhoudelijke en technische vragen gesteld door de vaklectoren. Elk teamlid moet kunnen antwoorden op vragen uit elk component van de oplossing.
 
