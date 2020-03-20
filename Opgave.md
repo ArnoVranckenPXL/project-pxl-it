@@ -74,7 +74,7 @@ Aangezien jullie in team gaan werken, zullen jullie een git repository gebruiken
 
 Voorzie ook een communicatietool waarmee jullie makkelijk met elkaar kunnen communiceren wanneer jullie niet samen zitten. De keuze is vrij, tools als Slack, Discord, Microsoft Teams, ... zijn allemaal prima opties hiervoor.
 
-Om jullie een duidelijk overzicht te geven van de verschillende componenten die geïmplementeerd moeten worden, hebben we al een lijst met [issues](Issues) voorzien. Neem zeker eens een kijkje, het hele project wordt opgedeeld in een aantal subtaken, om het geheel **overzichtelijk** en **opdeelbaar** te maken.
+Om jullie een duidelijk overzicht te geven van de verschillende componenten die geïmplementeerd moeten worden, hebben we al een lijst met [user stories](User stories) voorzien. Neem zeker eens een kijkje, het hele project wordt opgedeeld in een aantal subtaken, om het geheel **overzichtelijk** en **opdeelbaar** te maken.
 
 We raden zeker aan om af en toe aan pair programming te doen, waarbij één student code schrijft en de andere mee volgt om zo mee te denken en onmiddellijk fouten op te sporen. Dit is een vaak gebruikte techniek die zeker nuttig kan zijn.
 
