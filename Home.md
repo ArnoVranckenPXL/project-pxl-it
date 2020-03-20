@@ -15,4 +15,4 @@ Hoe je van start gaat met deze startcode en hoe je werkt met git in een team kan
 Lees meer over wat je moet doen in de frontend in de **[frontend handleiding](Frontend)**.
 
 # Backend
-Lees meer over wat je moet doen in de frontend in de **[backend handleiding](Backend)**.
+Lees meer over wat je moet doen in de backend in de **[backend handleiding](Backend)**.
