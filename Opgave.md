@@ -73,22 +73,9 @@ Aangezien jullie in team gaan werken, zullen jullie een git repository gebruiken
 
 Voorzie ook een communicatietool waarmee jullie makkelijk met elkaar kunnen communiceren wanneer jullie niet samen zitten. De keuze is vrij, tools als Slack, Discord, Microsoft Teams, ... zijn allemaal prima opties hiervoor.
 
-Om jullie een duidelijk overzicht te geven van de verschillende componenten die geïmplementeerd moeten worden, hebben we al een lijst met _*issues (?)*_ voorzien. Neem zeker eens een kijkje, het hele project wordt opgedeeld in een aantal subtaken, om het geheel **overzichtelijk** en **opdeelbaar** te maken.
+Om jullie een duidelijk overzicht te geven van de verschillende componenten die geïmplementeerd moeten worden, hebben we al een lijst met [issues](Issues) voorzien. Neem zeker eens een kijkje, het hele project wordt opgedeeld in een aantal subtaken, om het geheel **overzichtelijk** en **opdeelbaar** te maken.
 
 We raden zeker aan om af en toe aan pair programming te doen, waarbij één student code schrijft en de andere mee volgt om zo mee te denken en onmiddellijk fouten op te sporen. Dit is een vaak gebruikte techniek die zeker nuttig kan zijn.
-
-## Opvolging
-
-Er zullen enkele tussentijdse deadlines plaatsvinden, om jullie vooruitgang beter in te kunnen schatten. 
-Jullie kunnen hier telkens al een punt mee verdienen die in het eindresultaat meegeteld zal worden.
-
-**Deadline 1 - Week 3:** Registratie en login moet werken (1 punt)
-
-**Deadline 2 - Week 4:** Grid configureren (plaatsen van schepen) (1 punt)
-
-**Deadline 3 - Week 5:** Shot lossen + feedback tonen in het spel (1 punt)
-
-**Finale versie:**
 
 ## Verplichte aanwezigheid
 
@@ -98,6 +85,19 @@ Bij gewettigde afwezigheid, moet je dit zo snel mogelijk melden aan je teamleden
 Wanneer je te vaak afwezig bent (zelfs gewettigd), kan je niet slagen voor het project.
 
 Precieze info kan je vinden in de [studiegids](https://ibamaflexweb.pxl.be/BMFUIDetailxOLOD.aspx?b=1&c=1&a=62374).
+
+## Opvolging
+
+Er zullen enkele tussentijdse deadlines plaatsvinden, om jullie vooruitgang beter in te kunnen schatten. 
+Jullie kunnen hier telkens al een punt mee verdienen die in het eindresultaat meegeteld zal worden.
+
+**Deadline 1 - Week 3:** Registratie en login moet werken. (1 punt)
+
+**Deadline 2 - Week 4:** Grid configureren (plaatsen van schepen). (1 punt)
+
+**Deadline 3 - Week 5:** Shot lossen + feedback tonen in het spel. (1 punt)
+
+**Finale versie - Week 7:** Eindpresentatie. Resultaat afgewerkte applicatie/game.
 
 ## Eindpresentatie
 
