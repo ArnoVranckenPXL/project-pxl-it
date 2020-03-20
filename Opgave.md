@@ -29,7 +29,7 @@ Pas zo goed mogelijk de aangeleerde methoden uit de twee bovenstaande vakken toe
 Een speler kan een account maken en hiermee inloggen. Eens ingelogd, kan de speler een spel starten wanneer hij daar klaar voor is. Voorzie dus een scherm waarop de speler terecht komt na inloggen. Vanop deze pagina kan het spel gestart worden, al dan niet met een aantal opties i.v.m. de regels die toegepast zullen worden tijdens het spel.
 
 Bij de start van een spel moet de speler eerst al zijn schepen plaatsen. Hierbij moeten bepaalde regels gerespecteerd worden, afhankelijk van welke regels en opties er gekozen zijn. Het is de backend die deze checks zal moeten uitvoeren.
-Slechts wanneer alle schepen op een correcte manier geplaatst zijn, kan het spel effectief van start gaan. In het spel komen de speler en de computerspeler (backend) om de beurt aan zet en schieten ze een torpedo af op een bepaald vakje in de grid.
+Slechts wanneer alle schepen op een correcte manier geplaatst zijn, kan het spel effectief van start gaan. In het spel komen de speler en de computerspeler (backend) om de beurt aan zet en schieten ze een torpedo af op een bepaald vakje in de grid. De basisimplementatie van de computerspeler is een 'domme' implementatie: deze schiet op een willekeurig leeg vakje, zonder voorkennis van de eerder geraakt boten. Een slimmere tegenstander implementeren levert [extra](#extras) punten op.
 
 Wanneer alle vakjes waarin een boot staat, geraakt zijn, zinkt de betreffende boot. Het spel duurt tot een speler alle schepen van de andere speler heeft kunnen laten zinken.
 
