@@ -3,7 +3,7 @@
 In de solution vind je 9 projecten:
 
 * Battleship.Api -> Dit project is de eigenlijke webapplicatie. 
-In de Controller folder vind je enkele classes die methoden bevatten die uitgevoerd worden als er een http request binnenkomt op een bepaalde url. 
+In de _Controller_ folder vind je enkele classes die methoden bevatten die uitgevoerd worden als er een http request binnenkomt op een bepaalde url. 
 Om de minimale vereisten te implementeren is het niet nodig om hier 1 letter code te wijzigen. 
 Het gaat wel handig zijn om hier breakpoints te plaatsen om je applicatie te debuggen.
 * Battleship.Api.Tests -> Bevat automatische testen voor de Controller classes in het Battleship.Api project. 
@@ -97,7 +97,7 @@ _GameInfo_ bevat de volgende informatie:
 * IsReadyToStart: geeft aan of er gestart kan worden met schieten.
 * HasBombsLoaded: geeft aan of de bom(men) van de _Player_ geladen zijn. Indien ja, dan kan hij schieten. Indien nee, dan is de tegenstander aan de beurt. 
 * OwnGrid: informatie over de _Grid_ van de _Player_.
-* OwnShips: informatie over de schpen van de _Player_.
+* OwnShips: informatie over de schepen van de _Player_.
 * OpponentGrid: informatie over de _Grid_ van de tegenstander.
 * SunkenOpponentShips: een lijst van de gezonken schepen van de tegenstander.
 
@@ -110,6 +110,38 @@ Laat je leiden door de automatische testen...
 
 In dit project hoef je geen code te wijzigen, maar het is wel aangeraden om de class _InMemoryGameRepository_ in de _Repositories_ folder eens te bestuderen. 
 In de _InMemoryGameRepository_ kan je zien hoe gedurende de levensduur van de web applicatie de verschillende games in geheugen worden bijgehouden. 
+
+### Database van gebruikers
+
+De geregistreerde gebruikers worden in een database opgeslagen. 
+Deze database kan je als volgt vinden:
+* Open het venster _Sql Server Object Explorer_ in _Visual Studio_
+
+![View -> Sql Server Object Explorer](images/sql_open_explorer.png)
+
+* Maak een connectie met de lokale database server:
+     * Klik op het _+-icoon_
+     * Open _Local_
+     * Kies voor _MSSQLLocalDb_
+     * Klik op _Connect_ zonder iets te wijzigen 
+
+![View -> Sql Server Object Explorer](images/sql_connect_localdb.png)
+
+* Bij het starten van de Api wordt er automatisch een database _BattleshipDb_ aangemaakt. Deze zou je moeten terugvinden onder _(localdb)\MSSQLLocalDB -> Databases_.
+
+Om de **gebruikers te bekijken** die in de databank zitten doe je het volgende:
+* Ga naar _BattleshipDb -> Tables_
+* Klik rechts op _dbo.AspNetUsers_
+* Klik op _View Data_
+
+![View -> Sql Server Object Explorer](images/sql_view_usertable.png)
+
+Als je met een schone lei terug wil starten dan kan je de **database wissen en opnieuw aanmaken** als volgt:
+* Klik rechts op _BattleshipDb_
+* Klik op _Delete_
+* Vink _Close existing connections_ aan en klik op _Ok_
+* Door de Api nu opnieuw te starten zal er automatisch een nieuwe lege databank aangemaakt worden.
+
 
 ## Battleship.Domain
 
