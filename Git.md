@@ -89,7 +89,7 @@ Een eerste stap hierin is het maken van een commit die je wijzigingen bevat:
 * Klik op *Commit All* om de wijzigingen lokaal vast te leggen in een commit.
 
 Als je een commit hebt gemaakt, dan wil dat nog niet zeggen dat je teamgenoten deze code ook hebben. 
-Om daarvoor te zorgen, moet je eerst je lokale commit met een *push* toevoegen aan de online code in Bitbucket (*remote* repository).
+Om daarvoor te zorgen, moet je eerst je lokale commit met een *push* toevoegen aan de online code in GitHub (*remote* repository).
 
 ## Synchronisatie
 Synchronisatie bestaat uit 2 delen:
@@ -170,13 +170,13 @@ Om deze wijzigingen in jouw project te krijgen ga je als volgt te werk:
 
 #### Bij de eerste wijziging
 
-Als je voor het eerst wijzigingen van de originele startcode gaat binnen halen, dan moet je eenmalig een git configuratie uitvoeren. 
+Als je voor het eerst wijzigingen van de originele startcode gaat binnen halen, dan moet je eenmalig een git configuratie uitvoeren: 
 
 * Ga naar het _Team Explorer_ venster in Visual studio 
 * Klik op _Sync_
 * Kies onder _Actions_ voor _Open Command prompt_.
-    * Type het commando _git remote -v_. Dit commando lijst alle online (remote) repositories op. Je zou twee lijnen moeten zien die beginnen met het woord _origin_. De _origin_ is de naam voor de online repository van je team.
-    * Als er geen remote repository is met de naam _upstream_ dan voor je de volgende stappen uit:
+    * Type het commando _git remote -v_. Dit commando lijst alle online (remote) repositories op. Je zou twee lijnen moeten zien die beginnen met het woord **_origin_**. De _origin_ is de naam voor de online repository van je team.
+    * Als er geen remote repository is met de naam **_upstream_** dan voer je de volgende stappen uit:
          *   Type het commando _git remote add upstream https://github.com/pxlit-projects/battleship.git_. Hiermee wordt een referentie naar de repository van de lectoren toegevoegd. We refereren dus naar deze repository met de naam upstream. 
 
 #### Bij de eerste en volgende wijzigingen
@@ -186,7 +186,7 @@ Als de _upstream_ repository geconfigureerd is, dan kan je de nieuwe commits van
 * Ga naar het _Team Explorer_ venster in Visual studio 
 * Klik op _Sync_
 * Kies onder _Actions_ voor _Open Command prompt_.
-    * Type het commando _git pull upstream master_. Dit commando haalt de commits van de lectoren binnen en probeert deze te mergen met jouw laatste commit.
+    * Type het commando **_git pull upstream master_**. Dit commando haalt de commits van de lectoren binnen en probeert deze te mergen met jouw laatste commit. (Ter info: het commando _git pull origin master_ haalt de commits van de online repository van je team binnen.)
     * **Let op: lokale wijzigingen die niet in een commit zitten, gaan bij een *Pull* verloren!!!**
-* Sluit de command prompt. In het _Sync_ versie zie je nu commits (die van de lectoren en eventueel een merge commit) die je kan pushen naar de online repository van je team.
+* Sluit de command prompt. In het _Sync_ venster zie je nu commits (die van de lectoren en eventueel een merge commit) die je kan pushen naar de online repository van je team.
 * Na het pushen breng je de andere teamleden op de hoogte zodat zijn een pull kunnen doen.
