@@ -7,7 +7,7 @@ Je bouwt een webapplicatie (html, css, javascript) waarmee je het spel _zeeslag_
 De frontend (browser) communiceert met behulp van javascript met een backend (server) geschreven in C#.
 
 # Git
-In deze repository vinden jullie de startcode voor zowel de frontend als backend.
+In deze repository vinden jullie documentatie, tips en startcode voor de backend en de frontend.
 
 Hoe je van start gaat met deze startcode en hoe je werkt met git in een team kan je lezen in de **[Git handleiding](Git)**.
 
