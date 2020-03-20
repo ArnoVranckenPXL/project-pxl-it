@@ -12,15 +12,15 @@ Daarna moet je jezelf associėren met een team.
 Meld je aan op [guts-web.pxl.be](https://guts-web.pxl.be) en klik bovenaan in het menu op *Project 1TIN*.
 Zoek het team met jouw teamnummer en sluit je aan bij het team:
 
-![Aansluiten bij een team](images/guts_join_team.png)
+![Aansluiten bij een team](images/guts_jointeam.png)
 
 ## Automatische testen uitvoeren
 
 1. Build de solution
 2. Open het *Test Explorer* venster (Menu: *Test -> Windows -> TestExplorer*)
-3. Klik op het pijltje van de tweede knop links boven in het venster. Selecter *Class* zodat de testen per klasse gegroepeerd worden.
+3. Klik op de _groepeerknop_ boven in het venster. Groepeer de testen op _Project_ en dan _Class_.
 
-![Testen groeperen](images/guts_group_tests.png)
+![Testen groeperen](images/guts_grouptests.png)
 
 5. Klik rechts op de klasse waarvoor je de testen wil uitvoeren en klik op *Run selected tests*
 6. De eerste keer wanneer je testen uitvoert, zal er een browservenster opgengaan waarin je gebruikersnaam en wachtwoord moet invullen (de account waarmee je geregistreerd bent op [guts-web.pxl.be](https://guts-web.pxl.be). Na het aanmelden zullen de resultaten doorgestuurd worden door Visual Studio.

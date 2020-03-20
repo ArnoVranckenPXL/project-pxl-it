@@ -152,6 +152,14 @@ Op https://www.tutorialsteacher.com/csharp/csharp-extension-method vind je een v
 
 Als een computerspeler aan zet is, dan moet hij bepalen op welk vak van de tegenstander hij gaat schieten.
 Dit doe je door een class te maken die de interface _IShootingStrategy_ implementeert. 
-Voor de minimale vereisten is dat de class _RandomShootingStrategy_. Wil je een slimmere computerspeler bouwen (als extra) dan implementeer je de class _SmaartShootingStrategy_.
+Voor de minimale vereisten is dat de class _RandomShootingStrategy_. 
+
+Bij de **_RandomShootingStrategy_** wordt er geschoten op een willekeurig vak van de tegenstander. 
+Er wordt enkel geschoten op vakken waarop nog niet geschoten was. 
+Met het resultaat (ship geraakt of niet?) wordt in deze strategie geen rekening gehouden.
+
+Wil je een slimmere computerspeler bouwen (als extra) dan implementeer je de class **_SmartShootingStrategy_**. 
+Deze strategie onthoudt wanneer er een schip geraakt wordt en gaat proberen dat schip snel te zinken door de volgende keer in de buurt te schieten. 
+De strategie is ook slim genoeg om te weten in welke richting een schip (waarschijnlijk) ligt als er 2 geraakte vakjes naast elkaar liggen.
 
 In de _GameFactory_ class kan je bepalen welke shooting strategy je meegeeft aan een computerspeler.
