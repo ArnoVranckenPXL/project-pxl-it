@@ -59,7 +59,7 @@ We geven enkele ideeën, maar jullie zijn zeker vrij om - in samenspraak met de 
 
 * Implementatie van verschillende alternatieve opties voor spelregels
 * Slimme computer strategie (na een hit, het schip snel zinken): 3 punten
-* Spelopties:
+* Spelopties: (zie ook de [Battleship Wikipedia pagina](https://en.wikipedia.org/wiki/Battleship_(game)#Variations))
   * Meerdere schoten per beurt (3 varianten): 3 punten
   * Niet moeten melden van een gezonken schip: 1 punt
   * Verplaatsten van schepen tijdens een spel: 3 punten
@@ -67,6 +67,8 @@ We geven enkele ideeën, maar jullie zijn zeker vrij om - in samenspraak met de 
 * Multiplayer (2 mensen tegen elkaar): 4 punten
 * Multiplayer (met een groep tegen een AI): 6 punten
 * Eigen ideeën: te bespreken met lectoren
+
+Overleg telkens even met een vaklector voor je extra, alternatieve spelregels implementeert, zodat het duidelijk is wat de bedoeling is en jullie de juiste aanpassingen doen.
 
 ## Projectverloop
 
