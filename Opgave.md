@@ -39,7 +39,14 @@ Na afloop van het spel wordt de speler terug gebracht naar het hoofdscherm met d
 
 We geven een overzicht van de minimale vereisten voor dit project. Deze moeten geïmplementeerd zijn om een voldoende te halen op het project.
 
-_*TODO*_
+* Registratie van nieuwe gebruiker
+* Inloggen met bestaande gebruiker
+* Starten van nieuw spel
+* Plaatsen van schepen
+* Start spel na plaatsen van alle schepen
+* Schoten lossen en resultaat tonen
+* Einde van het spel
+
 
 ## Extra's
 
@@ -65,7 +72,16 @@ We raden zeker aan om af en toe aan pair programming te doen, waarbij één stud
 
 ## Opvolging
 
-_*TODO deadlines/feedbackmomenten*_
+Er zullen enkele tussentijdse deadlines plaatsvinden, om jullie vooruitgang beter in te kunnen schatten. 
+Jullie kunnen hier telkens al een punt mee verdienen die in het eindresultaat meegeteld zal worden.
+
+**Deadline 1 - Week 3:** Registratie en login moet werken (1 punt)
+
+**Deadline 2 - Week 4:** Grid configureren (plaatsen van schepen) (1 punt)
+
+**Deadline 3 - Week 5:** Shot lossen + feedback tonen in het spel (1 punt)
+
+**Finale versie:**
 
 ## Verplichte aanwezigheid
 
@@ -76,6 +92,11 @@ Wanneer je te vaak afwezig bent (zelfs gewettigd), kan je niet slagen voor het p
 
 Precieze info kan je vinden in de [studiegids](https://ibamaflexweb.pxl.be/BMFUIDetailxOLOD.aspx?b=1&c=1&a=62374).
 
+## Eindpresentatie
+
+Na afloop van het project wordt er een eindpresentatie gegeven door het hele team. Hierin wordt een demo gegeven van de geïmplementeerde applicatie. Er worden ook enkele inhoudelijke en technische vragen gesteld door de vaklectoren. Elk teamlid moet kunnen antwoorden op vragen uit elk component van de oplossing.
+
 ## Evaluatie
 
-Voor de evaluatie van dit project zullen we een groepscijfer van 65% bepalen, aan de hand van de presentatie die jullie geven na afloop van het project. We zullen ook automatische testen voorzien en het resultaat hiervan wordt eveneens meegenomen in dit cijfer. De overige 35% wordt bepaald d.m.v. peer assessment. Dit is dus een cijfer dat bepaald zal worden door je groepsleden. Zij kunnen het best inschatten wat het aandeel van elk ander teamlid was, dus wordt dat ook in rekening genomen. Meer informatie over het precieze verloop van presentatie, tests en peer assessment verschijnt nog op Blackboard, nadat het project van start gegaan is.
+Het team krijgt een groepscijfer op 20 (grootste deel op basis van de 
+ eindpresentatie, deels tussentijdse deadlines, deels backend tests). Dat cijfer kan nadien in positieve of negatieve zin bijgestuurd worden door een peer-evaluatie met een maximum verschil van 35%. Bijvoorbeeld 12/20 voor het team, kan individueel  16,2/20 worden of 7,8/20. Daarnaast kunnen de lectoren het cijfer ook bijsturen op basis van vaststellingen, zoals studenten die geen bijdrage leveren, geen *git commits* doen, ...
