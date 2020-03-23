@@ -37,7 +37,7 @@ Na afloop van het spel wordt de speler terug gebracht naar het hoofdscherm met d
 
 ## <a name="minimalevereisten"></a>Minimale vereisten
 
-We geven een overzicht van de minimale vereisten voor dit project. Als deze minimale vereisten aanwezig zijn bij de [eindpresentatie](#eindpresentatie) leveren ze 13 punten op. 3 punten hiervan zijn al te verdienen tijdens de [tussentijdse deadlines](#opvolging).
+We geven een overzicht van de minimale vereisten voor dit project. Als deze minimale vereisten aanwezig zijn bij de [eindpresentatie](#eindpresentatie) leveren ze 14 punten op. 3 punten hiervan zijn al te verdienen tijdens de [tussentijdse deadlines](#opvolging).
 
 * Registratie van nieuwe gebruiker
 * Inloggen met bestaande gebruiker
@@ -112,6 +112,6 @@ Het team krijgt een groepscijfer op 20 (grootste deel op basis van de
  eindpresentatie, deels tussentijdse deadlines, deels backend tests). Dat cijfer kan nadien in positieve of negatieve zin bijgestuurd worden door een peer-evaluatie met een maximum verschil van 35%. Bijvoorbeeld 12/20 voor het team, kan individueel  16,2/20 worden of 7,8/20. Daarnaast kunnen de lectoren het cijfer ook bijsturen op basis van vaststellingen, zoals studenten die geen bijdrage leveren, geen *git commits* doen, ...
 
 Zoals eerder aangehaald werd, worden de punten als volgt toegekend:
-* 13/20 te behalen met minimale vereisten
+* 14/20 te behalen met minimale vereisten
   * 3 punten hiervan te verdienen tijdens tussentijdse deadlines
 * Rest van de punten te verdienen met geïmplementeerde [extra's](#extras)
