@@ -19,10 +19,12 @@ De backend zal in eerste instantie lokaal gehost worden. Als extra kunnen jullie
 
 ## Frontend
 
-De frontend zal gemaakt worden met webtechnologie. (HTML, CSS, JavaScript) Jullie hebben hiervoor de nodige kennis opgedaan in de vakken **Web Essentials** en **Web Scripting**.
+De [frontend](Frontend) zal gemaakt worden met webtechnologie. (HTML, CSS, JavaScript) Jullie hebben hiervoor de nodige kennis opgedaan in de vakken **Web Essentials** en **Web Scripting**.
 Jullie bepalen als team zelf hoe de applicatie er precies uit zal zien. Houd hierbij rekening dat de applicatie intuïtief en gebruiksvriendelijk moet zijn voor de spelers. Ga bijvoorbeeld eens kijken bij andere online versies van het spel om wat inspiratie op te doen. Overleg met je team welke elementen er in de layout moeten zitten en waar die best geplaatst worden.
 
 Pas zo goed mogelijk de aangeleerde methoden uit de twee bovenstaande vakken toe om een robuuste applicatie te bouwen. De code moet leesbaar en makkelijk uitbreidbaar zijn, zodat je teamgenoten er steeds aan kunnen verder werken.
+
+Op de pagina over de [frontend](Frontend) kan je nog wat extra tips vinden.
 
 ## Het spel
 
