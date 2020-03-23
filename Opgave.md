@@ -57,9 +57,8 @@ Wanneer de minimale vereisten van hierboven voldaan zijn, kunnen er extra's naar
 
 We geven enkele ideeën, maar jullie zijn zeker vrij om - in samenspraak met de docenten - een eigen idee als extra te implementeren.
 
-* Implementatie van verschillende alternatieve opties voor spelregels
 * Slimme computer strategie (na een hit, het schip snel zinken): 3 punten
-* Spelopties: (zie ook de [Battleship Wikipedia pagina](https://en.wikipedia.org/wiki/Battleship_(game)#Variations))
+* Alternatieve spelopties: (zie ook de [Battleship Wikipedia pagina](https://en.wikipedia.org/wiki/Battleship_(game)#Variations))
   * Meerdere schoten per beurt (3 varianten): 3 punten
   * Niet moeten melden van een gezonken schip: 1 punt
   * Verplaatsten van schepen tijdens een spel: 3 punten
