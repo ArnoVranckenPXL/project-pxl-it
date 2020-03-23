@@ -16,3 +16,6 @@ Lees meer over wat je moet doen in de frontend in de **[frontend handleiding](Fr
 
 # Backend
 Lees meer over wat je moet doen in de backend in de **[backend handleiding](Backend)**.
+
+# User stories
+De minimale vereisten en extra's zijn in detail beschreven in de vorm van [user stories](User%20stories).
