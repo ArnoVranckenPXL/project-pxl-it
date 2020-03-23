@@ -88,7 +88,57 @@ Deze optionele user stories specifiëren het gewenste gedrag bij het implementer
 | Naam                | Slimme computer strategie |
 | Screen              | Spel pagina                                                  |
 | Type                | Backend                                           |
-| Script              | Wanneer de computerspeler aan zet is, wordt er niet langer een willekeurige vrije cel geselecteerd om op te schieten. De computerspeler bekijkt eerdere schoten die een schip geraakt hebben en selecteert op basis daarvan een logische zet. |
-| Deadline            |                                                              |
+| Script              | Wanneer de computerspeler aan zet is, wordt er niet langer een willekeurige vrije cel geselecteerd om op te schieten. De computerspeler bekijkt eerdere schoten die een schip geraakt hebben en selecteert op basis daarvan een logische zet. |                                                            |
 | Acceptatie criteria | - De computerspeler selecteert geen willekeurige cel indien er een betere zet mogelijk is.<br />- De computerspeler probeert steeds een eerder geraakt schip tot zinken te brengen.<br />[- De computerspeler schiet niet op plaatsen waar een schip niet meer *kan* staan. (door te weinig ruimte) |
+
+| Story  ID           | 9                                                        |
+| :------------------ | :----------------------------------------------------------- |
+| Naam                | Meerdere schoten per beurt |
+| Screen              | Spelopties, Spel pagina                                                  |
+| Type                | Frontend + Backend                                           |
+| Script              | De speler kan kiezen om het spel te starten met deze optie. In deze variant kan een speler meerdere schoten per beurt afvuren. Het precieze aantal schoten kan ook variëren, naargelang de optie die gekozen wordt: 
+   * Het aantal niet gezonken schepen van de aanvallende speler
+   * De grootte van het grootste niet gezonken schip van de aanvallende speler
+   * Een vooraf gedefinieerd aantal schoten |                                                            |
+| Acceptatie criteria | - De speler kan een spel starten met de optie om elke beurt meerdere schoten tegelijk af te vuren.<br /> - De speler kan kiezen welke regel er gebruikt wordt voor het bepalen van dit aantal.<br /> - De speler kan het betreffende aantal schoten in zijn beurt afvuren.<br /> - De computerspeler kan dit op dezelfde manier.<br /> - Het resultaat van dit salvo wordt correct getoond in het spel.<br /> - Het aantal af te vuren schoten wordt correct aangepast tijdens het spel, indien van toepassing. |
+
+| Story  ID           | 10                                                            |
+| :------------------ | :----------------------------------------------------------- |
+| Naam                | Niet moeten melden van een gezonken schip |
+| Screen              | Spel pagina                                                  |
+| Type                | Frontend + Backend                                         |
+| Script              | Wanneer een schip zinkt, moet dit niet gemeld worden door de betreffende speler. De aanvallende speler moet dit zelf achterhalen door nog extra torpedo's af te vuren. |                                                            |
+| Acceptatie criteria | - Bij opstart van het spel kan deze optie meegegeven worden.<br /> - Spelers melden hun gezonken schepen niet aan de andere speler |
+
+| Story  ID           | 11                                                            |
+| :------------------ | :----------------------------------------------------------- |
+| Naam                | Verplaatsen van schepen tijdens het spel |
+| Screen              | Spel pagina                                                  |
+| Type                | Frontend + Backend                                         |
+| Script              |  |                                                            |
+| Acceptatie criteria |  |
+
+| Story  ID           | 12                                                     |
+| :------------------ | :----------------------------------------------------------- |
+| Naam                | Vervormde schepen toestaan |
+| Screen              | Spel pagina                                                  |
+| Type                | Frontend + Backend                                         |
+| Script              |  |                                                            |
+| Acceptatie criteria |  |
+
+| Story  ID           | 13                                                    |
+| :------------------ | :----------------------------------------------------------- |
+| Naam                | Multiplayer (2 menselijke spelers) |
+| Screen              | Spel pagina, Lobby pagina                                                 |
+| Type                | Frontend + Backend                                         |
+| Script              |  |                                                            |
+| Acceptatie criteria |  |
+
+| Story  ID           | 14                                                |
+| :------------------ | :----------------------------------------------------------- |
+| Naam                | Multiplayer (Groep spelers tegen AI) |
+| Screen              | Spel pagina, Lobby pagina                                                  |
+| Type                | Frontend + Backend                                         |
+| Script              |  |                                                            |
+| Acceptatie criteria |  |
  
