@@ -99,7 +99,7 @@ Deze optionele user stories specifiëren het gewenste gedrag bij het implementer
 | Script              | De speler kan kiezen om het spel te starten met deze optie. In deze variant kan een speler meerdere schoten per beurt afvuren. Het precieze aantal schoten kan ook variëren, naargelang de optie die gekozen wordt: 
    * Het aantal niet gezonken schepen van de aanvallende speler
    * De grootte van het grootste niet gezonken schip van de aanvallende speler
-   * Een vooraf gedefinieerd aantal schoten |                                                            |
+   * Een vooraf gedefinieerd aantal schoten |                                                            
 | Acceptatie criteria | - De speler kan een spel starten met de optie om elke beurt meerdere schoten tegelijk af te vuren.<br /> - De speler kan kiezen welke regel er gebruikt wordt voor het bepalen van dit aantal.<br /> - De speler kan het betreffende aantal schoten in zijn beurt afvuren.<br /> - De computerspeler kan dit op dezelfde manier.<br /> - Het resultaat van dit salvo wordt correct getoond in het spel.<br /> - Het aantal af te vuren schoten wordt correct aangepast tijdens het spel, indien van toepassing. |
 
 | Story  ID           | 10                                                            |
