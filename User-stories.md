@@ -78,4 +78,17 @@
 | Acceptatie criteria | - De speler kan een coördinaat selecteren en een schot lossen.<br />- De speler ziet duidelijk of zijn schot raak is of niet.<br />- De speler ziet duidelijk wanneer hij een volledig schip tot zinken heeft gebracht. |
 | Backend URL         | http://{host}:{port}/api/games/{id}/shoot                    |
 
+
+# User stories - Extra's
+
+Deze optionele user stories specifiëren het gewenste gedrag bij het implementeren van extra's in de applicatie.
+
+| Story  ID           | 8                                                            |
+| :------------------ | :----------------------------------------------------------- |
+| Naam                | Slimme computer strategie |
+| Screen              | Spel pagina                                                  |
+| Type                | Backend                                           |
+| Script              | Wanneer de computerspeler aan zet is, wordt er niet langer een willekeurige vrije cel geselecteerd om op te schieten. De computerspeler bekijkt eerdere schoten die een schip geraakt hebben en selecteert op basis daarvan een logische zet. |
+| Deadline            |                                                              |
+| Acceptatie criteria | - De computerspeler selecteert geen willekeurige cel indien er een betere zet mogelijk is.<br />- De computerspeler probeert steeds een eerder geraakt schip tot zinken te brengen.<br />[- De computerspeler schiet niet op plaatsen waar een schip niet meer *kan* staan. (door te weinig ruimte) |
  
