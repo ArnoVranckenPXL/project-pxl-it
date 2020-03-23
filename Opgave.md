@@ -55,7 +55,7 @@ Wanneer de minimale vereisten van hierboven voldaan zijn, kunnen er extra's naar
 
 **Begin pas aan de extra's als alle minimale vereisten klaar zijn.**
 
-We geven enkele ideeën, maar jullie zijn zeker vrij om - in samenspraak met de docenten - een eigen idee als extra te implementeren.
+We geven enkele ideeën, maar jullie zijn zeker vrij om - in samenspraak met de docenten - een eigen idee als extra te implementeren. De voorgestelde extra's worden in meer detail beschreven op de pagina met [user stories](User%20stories).
 
 * Slimme computer strategie (na een hit, het schip snel zinken): 3 punten
 * Alternatieve spelopties: (zie ook de [Battleship Wikipedia pagina](https://en.wikipedia.org/wiki/Battleship_(game)#Variations))
