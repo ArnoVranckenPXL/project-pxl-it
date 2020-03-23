@@ -3,8 +3,8 @@ Wat je moet bouwen, kan je uitgebreid lezen in de **[opgave](Opgave)**.
 
 In het kort:
 
-Je bouwt een webapplicatie (html, css, javascript) waarmee je het spel _zeeslag_ tegen een computerspeler kan spelen.
-De frontend (browser) communiceert met behulp van javascript met een backend (server) geschreven in C#.
+Je bouwt een webapplicatie (HTML, CSS, JavaScript) waarmee je het spel _zeeslag_ tegen een computerspeler kan spelen.
+De frontend (browser) communiceert met behulp van JavaScript met een backend (server) geschreven in C#.
 
 # Git
 In deze repository vinden jullie documentatie, tips en startcode voor de backend en de frontend.
