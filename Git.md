@@ -177,7 +177,7 @@ Als je voor het eerst wijzigingen van de originele startcode gaat binnen halen, 
 * Kies onder _Actions_ voor _Open Command prompt_.
     * Type het commando _git remote -v_. Dit commando lijst alle online (remote) repositories op. Je zou twee lijnen moeten zien die beginnen met het woord **_origin_**. De _origin_ is de naam voor de online repository van je team.
     * Als er geen remote repository is met de naam **_upstream_** dan voer je de volgende stappen uit:
-         *   Type het commando _git remote add upstream https://github.com/pxlit-projects/battleship.git_. Hiermee wordt een referentie naar de repository van de lectoren toegevoegd. We refereren dus naar deze repository met de naam upstream. 
+         *   Type het commando _git remote add upstream https://github.com/pxlit-projects/battleship.git_. Hiermee wordt een referentie naar de repository van de lectoren toegevoegd. We refereren dus naar deze repository met de naam _upstream_. 
 
 #### Bij de eerste en volgende wijzigingen
 
@@ -188,5 +188,5 @@ Als de _upstream_ repository geconfigureerd is, dan kan je de nieuwe commits van
 * Kies onder _Actions_ voor _Open Command prompt_.
     * Type het commando **_git pull upstream master_**. Dit commando haalt de commits van de lectoren binnen en probeert deze te mergen met jouw laatste commit. (Ter info: het commando _git pull origin master_ haalt de commits van de online repository van je team binnen.)
     * **Let op: lokale wijzigingen die niet in een commit zitten, gaan bij een *Pull* verloren!!!**
-* Sluit de command prompt. In het _Sync_ venster zie je nu commits (die van de lectoren en eventueel een merge commit) die je kan pushen naar de online repository van je team.
-* Na het pushen breng je de andere teamleden op de hoogte zodat zijn een pull kunnen doen.
+* Sluit de command prompt. In het _Sync_ venster zie je nu commits (die van de lectoren en eventueel een merge commit) die je kan pushen naar de online repository van je team (_origin_).
+* Na het pushen breng je de andere teamleden op de hoogte zodat zijn een pull van de _origin_ kunnen doen.
