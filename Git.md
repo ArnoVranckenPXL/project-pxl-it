@@ -71,7 +71,7 @@ Hiervoor doorloop je 3 stappen:
 
 Waar nodig gaat git code van jou automatisch samenvoegen met de code van anderen (**merge commit**). 
 Als dat niet automatisch lukt, dan is er een **merge conflict** (bijvoorbeeld als je met 2 hetzelfde bestand hebt aangepast). 
-In dat geval zal je de conflichten manueel moeten oplossen vooraleer de *merge commit* gemaakt kan worden.
+In dat geval zal je de conflichten manueel moeten oplossen vooraleer de *merge commit* gemaakt kan worden. Dit wordt verderop meer toegelicht.
 
 ## Commits
 Zorg dat je start met de laatste versie van de code (zie *Pull*) en begin te werken aan de code. 
