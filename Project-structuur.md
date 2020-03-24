@@ -192,6 +192,7 @@ Met het resultaat (ship geraakt of niet?) wordt in deze strategie geen rekening 
 
 Wil je een slimmere computerspeler bouwen (als extra) dan implementeer je de class **_SmartShootingStrategy_**. 
 Deze strategie onthoudt wanneer er een schip geraakt wordt en gaat proberen dat schip snel te zinken door de volgende keer in de buurt te schieten. 
-De strategie is ook slim genoeg om te weten in welke richting een schip (waarschijnlijk) ligt als er 2 geraakte vakjes naast elkaar liggen.
+De strategie is ook slim genoeg om te weten in welke richting een schip (waarschijnlijk) ligt als er 2 geraakte vakjes naast elkaar liggen. 
+Verder zal deze strategie ook geen vak kiezen waar het kleinst overgebleven schip van de tegenstander niet meer kan passen. Als, bijvoorbeeld, de patrouille boot (2) van de tegenstander al gezonken is, dan moeten er minstens 3 vakjes naast of boven elkaar onaangeraakt zijn. 
 
 In de _GameFactory_ class kan je bepalen welke shooting strategy je meegeeft aan een computerspeler.
