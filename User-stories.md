@@ -88,7 +88,7 @@ Deze optionele user stories specifiëren het gewenste gedrag bij het implementer
 | Naam                | Slimme computer strategie |
 | Screen              | Spel pagina                                                  |
 | Type                | Backend                                           |
-| Script              | Wanneer de computerspeler aan zet is, wordt er niet langer een willekeurige vrije cel geselecteerd om op te schieten. De computerspeler bekijkt eerdere schoten die een schip geraakt hebben en selecteert op basis daarvan een logische zet. |                                                            |
+| Script              | Wanneer de computerspeler aan zet is, wordt er niet langer een willekeurige vrije cel geselecteerd om op te schieten. De computerspeler bekijkt eerdere schoten die een schip geraakt hebben en selecteert op basis daarvan een logische zet. Verder is de computerspeler slim genoeg om niet te schieten op vakjes waar geen schip van de tegenstander nog zou passen. Heeft de tegenstander, bijvoorbeeld, enkel nog een _Destroyer_ dan moet het vak waarop geschoten wordt minstens 2 nabije lege vakken hebben. |                                                            |
 | Acceptatie criteria | - De computerspeler selecteert geen willekeurige cel indien er een betere zet mogelijk is.<br />- De computerspeler probeert steeds een eerder geraakt schip tot zinken te brengen.<br />[- De computerspeler schiet niet op plaatsen waar een schip niet meer *kan* staan. (door te weinig ruimte) |
 
 | Story  ID           | 9                                                        |
