@@ -73,7 +73,7 @@ De class coordineert de logica rond:
 * het positioneren van schepen
 * het schieten naar de tegenstander
 
-De _GameService_ class coördineert. Dat wil zeggen dat hij veel verantwoordelijkheid doorschuift naar andere classes (in het Battleship.Data project en Battleship.Domain project).
+De _GameService_ class coÃ¶rdineert. Dat wil zeggen dat hij veel verantwoordelijkheid doorschuift naar andere classes (in het Battleship.Data project en Battleship.Domain project).
 De _GameService_ doet alles met 3 instanties van objecten die worden doorgegeven via de constructor:
 * een instantie van een class die _IGameFactory_ implementeert. 
 Hiermee kan een _Game_ kan aangemaakt worden. 
@@ -86,7 +86,7 @@ Hiermee kan je de informatie over een _Game_ (_GameInfo_) in de ogen van een _Pl
 Een player mag niet alle informatie van een _Game_ te zien krijgen (bijvoorbeeld de posities van de schepen van de tegenstander). 
 Daarom wordt een _Game_ eerst omgezet naar een _GameInfo_ object vooraleer we het over het netwerk naar de speler sturen.
 
-De gegeven code zorgt er al voor dat je juiste instanties van de juiste classes doorgegeven worden aan de constructor. 
+De gegeven code zorgt er al voor dat de juiste instanties van de juiste classes doorgegeven worden aan de constructor. 
 Jij moet deze instanties nu nog correct gebruiken. Laat je leiden door de automatische testen...
 
 ### Factories
@@ -168,14 +168,14 @@ In het domain project zijn veel classes aanwezig. Waar moet je nu beginnen?
 * Werk **feature per feature**. Laat ons hier het voorbeeld "Een nieuw spel starten" nemen. 
      * **Traceer de flow van de code** vanuit het API project. Plaats een breakpoint in de juiste controller methode en gebruik **debugging** technieken om dieper en dieper in de code te stappen. Voor het starten van een nieuw spel plaats je een breakpoint in de _CreateNewSinglePlayerGame_ methode.
      * Vervolledig de methodes / properties die je tegen komt tijdens het debuggen. **Laat je leiden door de automatische testen**. **Methodes en properties die je niet nodig hebt voor de huidige feature laat je voorlopig links liggen**. Bij het aanmaken van een nieuw spel zal je de _CreateGameForUser_ methode van de _GameService_ moeten implementeren. Vervolgens zal je merken dat je de _CreateNewSinglePlayerGame_ methode van _GameFactory_ zal moeten implementeren en de _CreateFromGame_ methode van de _GameInfoFactory_ class, enzovoort.
-     * Als de automatische testen aangeven dat een bepaalde methode / property van een andere class nog niet geïmplementeerd is dan implementeer je die eerst.
+     * Als de automatische testen aangeven dat een bepaalde methode / property van een andere class nog niet geÃ¯mplementeerd is dan implementeer je die eerst.
 * **Zorg dat je de gegeven code ook begrijpt**. Neem de tijd om de achterliggende theorie te bestuderen. Als je weet wat je aan het doen bent dan zal je code veel beter zijn en zal het ook aangenamer zijn om te programmeren. 
      * Als er in een class parameter van een interface type wordt doorgegeven in een constructor, dan ga je ook de class die de interface implementeert moeten aanvullen om de feature aan het werken te krijgen. Tip: als je rechts klikt op een interface type en je selecteert _Go to implementation_ dan kom je uit op de class die de interface implementeert.
 
 
 ### GridCoordinateArrayExtensions
 
-Om het plaatsen van schepen te vereenvoudigen maak je gebruik van _extensies_ op een array van grid coördinaten (_GridCoordinate[]_).
+Om het plaatsen van schepen te vereenvoudigen maak je gebruik van _extensies_ op een array van grid coÃ¶rdinaten (_GridCoordinate[]_).
 Deze extensies moet je zelf nog invullen in de _GridCoordinateArrayExtensions_ class. 
 Om goed te weten wat je in deze class moet doen en hoe je de methoden in deze class kan gebruiken, ga je eens moeten onderzoeken wat **_extension methods_** in C# zijn. 
 Op https://www.tutorialsteacher.com/csharp/csharp-extension-method vind je een vrij heldere uitleg, maar niets houd je tegen om ook andere bronnen te raadplegen.
