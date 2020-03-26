@@ -112,24 +112,24 @@ Deze optionele user stories specifiëren het gewenste gedrag bij het implementer
 | Naam                | Verplaatsen van schepen tijdens het spel |
 | Screen              | Spel pagina                                                  |
 | Type                | Frontend + Backend                                         |
-| Script              |  |                                                            |
-| Acceptatie criteria |  |
+| Script              | Na elke vijfde beurt mag een speler 1 van zijn schepen verplaatsen, om het de tegenstander zo wat moeilijker te maken. |                                                            |
+| Acceptatie criteria | - Na elke vijfde beurt krijgt de speler de melding om 1 schip te verplaatsen.<br /> - Nieuwe plaats van schip kan gekozen worden volgens zelfde plaatsingsregels als tevoren.<br /> - Computerspeler verplaatst ook 1 schip op een geldige manier.<br /> - Het spel gaat pas verder wanneer beide spelers klaar zijn met het verplaatsen. |
 
 | Story  ID           | 12                                                     |
 | :------------------ | :----------------------------------------------------------- |
 | Naam                | Vervormde schepen toestaan |
 | Screen              | Spel pagina                                                  |
 | Type                | Frontend + Backend                                         |
-| Script              |  |                                                            |
-| Acceptatie criteria |  |
+| Script              | Schepen moet niet in een rechte lijn liggen maar kunnen bochten van 90 graden bevatten (niet diagonaal). Elk vierkant van een schip moet minstens 1 ander vierkant van dat schip raken. |                                                            |
+| Acceptatie criteria | - Optie om deze spelvorm te activeren bij opstart<br /> - Bij plaatsing van schepen wordt deze vorm ondersteund in front- en backend.<br /> |
 
 | Story  ID           | 13                                                    |
 | :------------------ | :----------------------------------------------------------- |
 | Naam                | Multiplayer (2 menselijke spelers) |
 | Screen              | Spel pagina, Lobby pagina                                                 |
 | Type                | Frontend + Backend                                         |
-| Script              |  |                                                            |
-| Acceptatie criteria |  |
+| Script              | Er wordt een optie aan het spel toegevoegd zodat een spel gestart kan worden waarbij 2 menselijke spelers het tegen elkaar opnemen. Ze doen om beurt een zet en er komt geen computerspeler meer aan te pas. |                                                            |
+| Acceptatie criteria | - Optie bij opstarten van een spel voor player vs. player<br /> - Bij opstart van het spel wordt er gewacht tot beide spelers hun schepen geplaatst hebben<br /> - Deelnemende spelers komen om beurt aan zet, waarbij de andere geselecteerde spelregels gerespecteerd worden.<br /> - Op het einde van het spel wordt de winnaar getoond. |
 
 | Story  ID           | 14                                                |
 | :------------------ | :----------------------------------------------------------- |
