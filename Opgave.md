@@ -61,7 +61,7 @@ We geven enkele ideeën, maar jullie zijn zeker vrij om - in samenspraak met de 
 
 * Slimme computer strategie (na een hit, het schip snel zinken; niet schieten op vakjes waar geen boot meer op zou passen): 3 punten
 * Alternatieve spelopties: (zie ook de [Battleship Wikipedia pagina](https://en.wikipedia.org/wiki/Battleship_(game)#Variations))
-  * Meerdere schoten per beurt (3 varianten: 5 schoten, #schoten = #schepen, #schoten = grootte van grootste niet-beschadigd schip): 3 punten
+  * Meerdere schoten per beurt (3 varianten: 5 schoten, #schoten = #schepen, #schoten = grootte van grootste niet-beschadigd schip): 2 punten
   * Niet moeten melden van een gezonken schip: 1 punt
   * Verplaatsten van schepen tijdens een spel: 3 punten
   * Vervormde schepen toestaan: 3 punten

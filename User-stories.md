@@ -97,7 +97,7 @@ Deze optionele user stories specifiëren het gewenste gedrag bij het implementer
 | Screen              | Spelopties, Spel pagina                                                  |
 | Type                | Frontend + Backend                                           |
 | Script              | De speler kan kiezen om het spel te starten met deze optie. In deze variant kan een speler meerdere schoten per beurt afvuren. Het precieze aantal schoten kan ook variëren, naargelang de optie die gekozen wordt:<br /> - Het aantal niet gezonken schepen van de aanvallende speler<br /> - De grootte van het grootste niet geraakt schip van de aanvallende speler (met een minimum van 2 schoten)<br /> - Een vooraf gedefinieerd aantal schoten |                                                            
-| Acceptatie criteria | - De speler kan een spel starten met de optie om elke beurt meerdere schoten tegelijk af te vuren.<br /> - De speler kan kiezen welke regel er gebruikt wordt voor het bepalen van dit aantal.<br /> - De speler kan het betreffende aantal schoten in zijn beurt afvuren.<br /> - De computerspeler kan dit op dezelfde manier.<br /> - Het resultaat van dit salvo wordt correct getoond in het spel.<br /> - Het aantal af te vuren schoten wordt correct aangepast tijdens het spel, indien van toepassing. |
+| Acceptatie criteria | - De speler kan een spel starten met de optie om elke beurt meerdere schoten tegelijk af te vuren.<br /> - De speler kan kiezen welke regel er gebruikt wordt voor het bepalen van dit aantal.<br /> - De speler kan het betreffende aantal schoten in zijn beurt afvuren.<br /> - De computerspeler kan dit op dezelfde manier.<br /> - Het resultaat van elk schot wordt correct getoond in het spel.<br /> - Het aantal af te vuren schoten wordt correct aangepast tijdens het spel, indien van toepassing. |
 
 | Story  ID           | 10                                                            |
 | :------------------ | :----------------------------------------------------------- |
@@ -112,15 +112,15 @@ Deze optionele user stories specifiëren het gewenste gedrag bij het implementer
 | Naam                | Verplaatsen van schepen tijdens het spel |
 | Screen              | Spel pagina                                                  |
 | Type                | Frontend + Backend                                         |
-| Script              | Na elke vijfde beurt mag een speler 1 van zijn schepen verplaatsen, om het de tegenstander zo wat moeilijker te maken. |                                                            |
-| Acceptatie criteria | - Na elke vijfde beurt krijgt de speler de melding om 1 schip te verplaatsen.<br /> - Nieuwe plaats van schip kan gekozen worden volgens zelfde plaatsingsregels als tevoren.<br /> - Computerspeler verplaatst ook 1 schip op een geldige manier.<br /> - Het spel gaat pas verder wanneer beide spelers klaar zijn met het verplaatsen. |
+| Script              | Om de zoveel beurten mag een speler 1 van zijn schepen verplaatsen, om het de tegenstander zo wat moeilijker te maken. Het aantal beurten dat je moet wachten is instelbaar en ligt tussen 1 en 10 (1, 10 inclusief). Enkel schepen die niet beschadigd zijn mogen verplaatst worden. |
+| Acceptatie criteria | - Bij opstart van het spel kan deze optie aangezet worden en kan het aantal beurten dat je moet wachten ingegeven worden.<br /> - Om de zoveel beurten krijgt de speler de melding dat er 1 schip verplaatst mag worden.<br /> - Nieuwe plaats van schip kan gekozen worden volgens zelfde plaatsingsregels als tevoren.<br /> - Computerspeler verplaatst ook 1 schip op een geldige manier.<br /> - Het spel gaat pas verder wanneer beide spelers klaar zijn met het verplaatsen. |
 
 | Story  ID           | 12                                                     |
 | :------------------ | :----------------------------------------------------------- |
 | Naam                | Vervormde schepen toestaan |
 | Screen              | Spel pagina                                                  |
 | Type                | Frontend + Backend                                         |
-| Script              | Schepen moet niet in een rechte lijn liggen maar kunnen bochten van 90 graden bevatten (niet diagonaal). Elk vierkant van een schip moet minstens 1 ander vierkant van dat schip raken. |                                                            |
+| Script              | Schepen moet niet meer in een rechte lijn liggen. Elk segment van een schip moet minstens 1 ander segment van dat schip raken. Dit kan horizontaal, verticaal, maar ook diagonaal zijn. |                                                            |
 | Acceptatie criteria | - Optie om deze spelvorm te activeren bij opstart<br /> - Bij plaatsing van schepen wordt deze vorm ondersteund in front- en backend.<br /> |
 
 | Story  ID           | 13                                                    |
@@ -136,6 +136,6 @@ Deze optionele user stories specifiëren het gewenste gedrag bij het implementer
 | Naam                | Multiplayer (Groep spelers tegen AI) |
 | Screen              | Spel pagina, Lobby pagina                                                  |
 | Type                | Frontend + Backend                                         |
-| Script              |  |                                                            |
-| Acceptatie criteria |  |
+| Script              | Er word een optie aan het spel toegevoegd waarbij het mogelijk is om met meerdere (menselijke) spelers tegen een computer speler te spelen.<br /> Een eerste spel start een wachtkamer / lobby waar andere spelers zichzelf aan kunnen toevoegen.<br /> Als het ingestelde aantal spelers aanwezig is in de lobby, dan start de wedstrijd en speelt elke speler tegen een computer speler.<br /> De winnaar is de speler die met het minst aantal schoten de computer kan verslaan. |                                                            |
+| Acceptatie criteria | - Een speler kan een nieuwe lobby maken. Hierbij wordt het aantal plaatsen bepaald en worden de spelopties ingesteld. <br/>- Andere spelers kunnen in een lobby stappen.<br />- Als de lobby vol zit, dan wordt het spel gestart.<br />- Tijdens het spelen worden de namen van de tegenspelers getoond met het aantal torpedo's die ze reeds geschoten hebben.<br />- Zodra een speler gewonnen heeft en alle andere spelers hebben meer torpedo's afgeschoten, wordt de winnaar weergegeven. |
  
