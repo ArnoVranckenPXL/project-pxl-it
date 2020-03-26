@@ -79,7 +79,7 @@
 | Backend URL         | http://{host}:{port}/api/games/{id}/shoot                    |
 
 
-# User stories - Extra's
+# <a name="extraUserStories"></a>User stories - Extra's
 
 Deze optionele user stories specifiëren het gewenste gedrag bij het implementeren van extra's in de applicatie.
 

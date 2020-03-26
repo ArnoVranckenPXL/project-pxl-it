@@ -51,13 +51,15 @@ We geven een overzicht van de minimale vereisten voor dit project. Als deze mini
 * Automatisch schoten lossen voor computer spelen ('domme' strategie)
 * Einde van het spel: winnaar tonen
 
+**Een meer gedetailleerde omschrijving voor elke requirement vind je in de [user stories](User-stories).**
+
 ## <a name="extras"></a>Extra's
 
 Wanneer de minimale vereisten van hierboven voldaan zijn, kunnen er extra's naar keuze toegevoegd worden. Hiermee kan je je als team onderscheiden van de rest en extra punten scoren.
 
-**Begin pas aan de extra's als alle minimale vereisten klaar zijn.**
+**Begin pas aan de extra's als alle minimale vereisten klaar zijn.** Je krijgt geen punten voor extra's als de minimale vereisten niet aanwezig zijn.
 
-We geven enkele ideeën, maar jullie zijn zeker vrij om - in samenspraak met de docenten - een eigen idee als extra te implementeren. De voorgestelde extra's worden in meer detail beschreven op de pagina met [user stories](User%20stories).
+We geven enkele ideeën, maar jullie zijn zeker vrij om - in samenspraak met de docenten - een eigen idee als extra te implementeren. De voorgestelde extra's worden in meer detail beschreven op de pagina met **[user stories](User-stories#extraUserStories)**.
 
 * Slimme computer strategie (na een hit, het schip snel zinken; niet schieten op vakjes waar geen boot meer op zou passen): 3 punten
 * Alternatieve spelopties: (zie ook de [Battleship Wikipedia pagina](https://en.wikipedia.org/wiki/Battleship_(game)#Variations))
