@@ -8,7 +8,7 @@
 | Screen               | Registration  screen                                         |
 | Type                 | Frontend (backend is reeds volledig)                         |
 | Script               | Als gebruiker die zich wenst te registreren vul ik de volgende informatie in:<br />-    E-mailadres  <br/>-    Username <br/>-    Wachtwoord  <br />-    Wachtwoord verificatie<br />Wanneer de gebruiker klikt op de "Registreer"-knop wordt gecontroleerd of alle velden ingevuld zijn. Daarna wordt gecontroleerd of beide ingevulde wachtwoorden identiek zijn en voldoen aan volgende regels:<br />TODO paswoord regels<br />De ingevulde gegevens worden vervolgens verstuurd naar de backend. Indien de registratie succesvol is verlopen, wordt het login-scherm getoond zodat de gebruiker kan inloggen. Indien er een fout is opgetreden wordt de foutboodschap getoond. |
-| Deadline             |                                                              |
+| Deadline             | week 3                                                       |
 | Acceptance  criteria | - Er wordt een foutboodschap getoond indien er gegevens ontbreken.<br />- Er wordt een foutboodschap getoond indien beide paswoorden niet overeenkomen.<br />- Er wordt een foutboodschap getoond indien er een fout is opgetreden in de backend bij het registeren van de gebruiker.<br />- Het login-scherm wordt getoond indien de registratie van de gebruiker correct is verlopen. Het e-mailadres van de geregistreerde gebruiker is reeds ingevuld zodat hij enkel zijn wachtwoord moet invullen. |
 | Backend URL          | http://{host}:{port}/api/Authentication/register             |
 
@@ -18,7 +18,7 @@
 | Screen              | Login  screen                                                |
 | Type                | Frontend (Backend is reeds volledig)                         |
 | Script              | Als geregistreerde speler kan ik op de login pagina mijn e-mailadres en wachtwoord invullen. Wanneer ik op de "Inloggen"-knop druk worden mijn inloggegevens gecontroleerd door de backend. Indien de inloggegevens correct zijn wordt de lobby pagina getoond. |
-| Deadline            |                                                              |
+| Deadline            | Week 3                                                       |
 | Acceptatie criteria | - Er wordt een foutmelding getoond indien er gegevens niet zijn ingevuld.<br />- Er wordt een foutmelding getoond indien de inloggevens niet correct zijn.<br />- De lobby pagina wordt getoond indien de speler correct is ingelogd. |
 | Backend URL         | http://{host}:{port}/api/Authentication/token                |
 
@@ -28,7 +28,7 @@
 | Screen              | Lobby pagina                                                 |
 | Trigger             |                                                              |
 | Script              | Als ingelogde speler kan ik op de lobby pagina op een knop drukken waarmee een nieuw spel wordt gestart. De configuratie van het default spel wordt naar de backend verstuurd en het response van de backend bevat o.a. een unieke identificatie voor het aangemaakte spel. |
-| Deadline            |                                                              |
+| Deadline            | Week 4                                                       |
 | Acceptatie criteria | - De spel pagina wordt getoond als de creatie van het spel is gelukt en de frontend de unieke identificatie (id) van het spel heeft ontvangen. |
 | Backend URL         | http://{host}:{port}/api/games                               |
 
@@ -38,7 +38,7 @@
 | Screen              | Spel  pagina                                                 |
 | Type                | Frontend + Backend                                           |
 | Script              | Een 10x10 spelbord wordt getoond waar de speler zijn schepen kan plaatsen. Volgende schepen moeten op het scherm geplaatst worden:<br />- carrier (5 cellen)<br />- battleship (4 cellen)<br />- destroyer (3 cellen)<br />- submarine (3 cellen)<br />- patrolboat (2 cellen)<br />Ieder schip kan maar 1 keer op het spelbord geplaatst worden. Schepen kunnen wel nog verplaatst worden. Schepen mogen niet overlappen. Schepen mogen elkaar wel raken. Zodra de speler alle schepen op hun gewenste positie op het spelbord geplaatst heeft, kan het spel effectief gestart worden. |
-| Deadline            |                                                              |
+| Deadline            | Week 4                                                       |
 | Acceptatie criteria | - Wanneer een schip met 1 of meerdere cellen overlapt met een ander reeds geplaatst schip, zal er door de backend een foutboodschap gegeven worden en wordt het schip niet op de gevraagde positie geplaatst.<br />- Wanneer een schip op een geldige positie geplaatst is, is dit zichtbaar waar ik het schip heb geplaatst. Het schip kan verplaatst worden naar een andere geldige positie. |
 | Backend URL         | http://{host}:{port}/api/games/{id}/positionship             |
 
@@ -50,7 +50,7 @@
 | Screen              | Spel pagina                                                  |
 | Type                | Frontend + Backend                                           |
 | Script              | Op iedere ogenblik vanaf het starten van een nieuw spel kunnen de actuele gegevens van een spel opgevraagd worden en indien nodig aan de speler getoond worden. <br />Deze gegevens bevatten o.a. een boolean isReadyToStart, die aangeeft of alle schepen van de speler correct geplaatst zijn, de posities van de eigen schepen, de status van het spelbord van de tegenstander en status van het eigen spelbord. |
-| Deadline            |                                                              |
+| Deadline            | Bepaalde informatie heb je voor de deadlines van week 4 en 5 reeds nodig |
 | Acceptatie criteria | - Tijdens het spelen van het spel ziet de speler hoeveel schoten hij en de tegenstander reeds hebben afgeschoten.<br />- Tijdens het spelen van het spel ziet de speler welke en hoeveel schepen reeds tot zinken zijn gebracht bij de tegenstander.<br />- Tijdens het spelen van het spel ziet de speler welke en hoeveel schepen de tegenstander reeds tot zinken heeft gebracht bij de speler.<br />- Wanneer alle schepen van de speler tot zinken zijn gebracht krijgt de speler een mededeling dat hij verloren is en is het spel afgelopen.<br />- Wanneer de speler alle schepen geplaatst door de backend tot zinken heeft gebracht krijgt de speler de melding dat hij het spel heeft gewonnen en is het spel afgelopen. |
 | Backend URL         | http://{host}:{port}/api/games/{id}                          |
 
@@ -62,7 +62,7 @@
 | Screen              | Spel pagina                                                  |
 | Type                | Frontend + Backend                                           |
 | Script              | Zodra alle schepen door de speler op een geldige positie zijn geplaatst, kan de speler beslissen om het spel effectief te starten. In de backend wordt ook een spelbord met schepen voor de speler aangemaakt. In de basisversie van het spel zal de backend de schepen willekeurig op een geldige positie plaatsen. |
-| Deadline            |                                                              |
+| Deadline            | Week 5                                                       |
 | Acceptatie criteria | - De knop om het spel te starten wordt beschikbaar zodra alle schepen op een geldige positie staan.<br />- Zolang het spel niet gestart is, kunnen er geen schoten gelost worden. Vanaf het ongeblik dat het spel gestart is kan de speler een schot lossen. |
 | Backend URL         | http://{host}:{port}/api/games/{id}/start                    |
 
@@ -74,7 +74,7 @@
 | Screen              | Spel pagina                                                  |
 | Type                | Frontend + Backend                                           |
 | Script              | De speler selecteert een positie op het spelbord waar hij het schot wil lossen. De coördinaten van het schot worden naar de backend verstuurd, die vervolgens antwoord of het raak was of niet. Indien het schot ervoor zorgt dat het volledige schip geraakt is zal dit ook in het antwoord van de backend staan. |
-| Deadline            |                                                              |
+| Deadline            | Week 5                                                       |
 | Acceptatie criteria | - De speler kan een coördinaat selecteren en een schot lossen.<br />- De speler ziet duidelijk of zijn schot raak is of niet.<br />- De speler ziet duidelijk wanneer hij een volledig schip tot zinken heeft gebracht. |
 | Backend URL         | http://{host}:{port}/api/games/{id}/shoot                    |
 
