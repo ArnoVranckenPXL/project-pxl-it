@@ -165,7 +165,7 @@ Als alle conflicten in alle bestanden opgelost zijn, kan je op *Commit Merge* kl
 
 ### Synchroniseren met de code van de lectoren
 
-Het is mogelijk dat de lectoren wijzigingen maken aan de originele startcode (de repository waarvan je online team repository en kopie is). 
+Het is mogelijk dat de lectoren wijzigingen maken aan de originele startcode (de repository waarvan je online team repository een kopie is). 
 Om deze wijzigingen in jouw project te krijgen ga je als volgt te werk:
 
 #### Bij de eerste wijziging
